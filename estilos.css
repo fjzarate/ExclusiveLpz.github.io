@@ -1,0 +1,366 @@
+
+
+* {
+  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.hero {
+    background-image: linear-gradient(to bottom, #fff, #fff);
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    
+    text-decoration:underline;
+    margin-bottom: 10px;
+}
+
+.servicios {
+  background-color: #fff;  
+  position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 50px;
+    background-color: #0c0b0b;
+
+}
+
+.servicio {
+    
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 20px solid #0c0b0b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+.boton-flotante{
+    position: fixed;
+    bottom: 40px;
+    right: 7px;
+    z-index: 1000;
+    }
+    .boton-flotante a{
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #f5faf7;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        line-height: 60px;
+        font-size: 30px;
+    }
+    .boton-flotante a img {
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+    }
+    
+    
+    .boton-ig a img{
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+
+    }
+  .nstr{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+  }
+/* .servicio p{
+    
+    position:relative;
+    top: -350px;
+    margin-left: 50%;
+    margin-right: 10%;
+   
+    }*/
+    .servicio h3{
+        padding: 10px;
+        font-size: 20px;
+        margin-left:7,5px;
+        color: rgba(5, 4, 48, 0.836);
+        text-align: center;
+
+    }
+
+    .servicios img{
+        position:relative;
+        margin-left: 30%;
+    }
+    .LattafaKhamrahQahwa{
+      margin-left: 6%;
+
+    }
+    
+    /* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Hero */
+  
+  .hero {
+    background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  .hero p{
+    color: rgb(68, 4, 68);
+    padding: 10px;
+  }
+  
+  /* Servicios */
+  
+  .servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .servicio {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #070000b4;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.33% - 40px);
+  }
+  .servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 50px;
+}
+
+
+/*2. Ajusta el tamaño de las imágenes: Para que las imágenes se adapten al tamaño de la tarjeta, puedes utilizar width: 100% y height: auto.*/
+
+
+.servicios img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/*3. Ajusta el tamaño del texto: Puedes utilizar media queries para ajustar el tamaño del texto en diferentes tamaños de pantalla.*/
+
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+  .nstr {
+    font-size: 25px;
+  }
+}
+
+
+/*4. Ajusta el botón flotante: Puedes ajustar la posición del botón flotante para que se mantenga en la parte inferior derecha de la pantalla en diferentes tamaños.*/
+
+
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+
+/*5. Ajusta el footer: Puedes ajustar el tamaño del footer para que se adapte a diferentes tamaños de pantalla.*/
+
+
+footer {
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+
+/*Aquí te dejo el código completo con las recomendaciones que te hice:*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: rgb(68, 4, 68);
+  padding: 10px;
+}
+
+.servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 50px;
+  background-color: #0c0b0b;
+}
+
+.servicio {
+  background-color: #fff;
+  padding: 20px;
+  border: 3px solid #070000b4;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.servicios img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.nstr {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.boton-flotante a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f5faf7;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+}
+
+.boton-flotante a img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  background-color: #333;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+  .nstr {
+    font-size: 25px;
+  }
+}
+
+ 
