@@ -250,7 +250,7 @@ footer {
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
