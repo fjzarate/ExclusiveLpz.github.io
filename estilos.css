@@ -362,6 +362,8 @@ footer {
     font-size: 25px;
   }
 }
-
+.servicio:hover {
+  transform: scale(1.05);
+}
 
 
