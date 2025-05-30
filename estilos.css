@@ -403,7 +403,5 @@ footer {
   transition: transform 0.3s ease-in-out;
 }
 
-.boton-flotante:hover {
-  transform: scale(1.1);
-}
+
 
