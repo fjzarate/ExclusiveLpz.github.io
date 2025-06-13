@@ -31,7 +31,7 @@ header {
 }
 
 .hero h1 {
-    font-family:cursive;
+    font-family:'Courier New', Courier, monospace;
     text-decoration:underline;
     margin-bottom: 10px;
     background: linear-gradient(
