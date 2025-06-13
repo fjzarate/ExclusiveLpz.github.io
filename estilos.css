@@ -458,3 +458,40 @@ footer {
     font-size: 12px;
   }
 }
+.servicio img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.servicio p {
+  display: none;
+}
+
+.servicio:hover p {
+  display: block;
+}
+
+.servicio:hover img {
+  opacity: 0.5;
+}
+.servicio p {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.servicio:hover p {
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+.servicio p {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.servicio:hover p {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+
