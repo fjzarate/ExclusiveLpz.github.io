@@ -34,6 +34,18 @@ header {
     
     text-decoration:underline;
     margin-bottom: 10px;
+    background: linear-gradient(
+        90deg,#ff00cc,#3333ff);
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: wave 2s linear infinite;
+}
+@keyframes wave{
+    0%{background-position: 0% center;}
+    100%{
+        background-position: 200% center;
+    }
 }
 
 .servicios {
@@ -95,6 +107,7 @@ footer {
         margin-top: 5px;
 
     }
+   
   .nstr{
     font-size: 30px;
     text-align: center;
@@ -365,5 +378,82 @@ footer {
 .servicio:hover {
   transform: scale(1.05);
 }
+.boton-flotante {
+  position: fixed;
+  bottom: 40px;
+  right: 7px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.boton-flotante a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f5faf7;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
 
+.boton-flotante a img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+.boton-millanel {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.boton-millanel img {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  display: block;
+}
+
+.boton-millanel p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .boton-millanel {
+    width: 100%;
+    padding: 10px;
+  }
+  .boton-millanel img {
+    width: 50px;
+    height: 50px;
+  }
+  .boton-millanel p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .boton-millanel {
+    padding: 5px;
+  }
+  .boton-millanel img {
+    width: 30px;
+    height: 30px;
+  }
+  .boton-millanel p {
+    font-size: 12px;
+  }
+}
