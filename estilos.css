@@ -66,6 +66,10 @@ nav ul {
 }
 
 .servicio {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   background-color: #fff;
   padding: 20px;
   border: 3px solid #070000b4;
@@ -80,9 +84,9 @@ nav ul {
 
 .servicio img {
   width: 100%;
-  height: object-fit:cover;
-  object-position:center;
+  height: auto;
   margin: 0 auto;
+  display:block;
 }
 
 .servicio p {
