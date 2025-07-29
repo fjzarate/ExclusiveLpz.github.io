@@ -80,7 +80,8 @@ nav ul {
 
 .servicio img {
   width: 100%;
-  height: auto;
+  height: object-fit:cover;
+  object-position:center;
   margin: 0 auto;
 }
 
